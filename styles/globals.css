@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+}
+
+/* Hero Section */
+.hero {
+  background: url('/solar-hero.jpg') center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+}
+
+.hero-overlay {
+  background-color: rgba(0,0,0,0.5);
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+
+.cta-button {
+  background-color: #f59e0b;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: #d97706;
+}
+
+/* Form Section */
+.form-section {
+  max-width: 600px;
+  margin: 40px auto 50px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.form-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #16a34a;
+}
+
+input, textarea {
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+}
+
+button {
+  background: #f59e0b;
+  color: white;
+  border: none;
+  padding: 14px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 6px;
+  width: 100%;
+}
+
+button:hover {
+  background: #d97706;
+}
+
+/* Features */
+.features {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+}
+
+.features h2 {
+  color: #16a34a;
+  text-align: center;
+}
+
+.features ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.1rem;
+}
+
+.features li {
+  margin: 10px 0;
+}
+
+/* Testimonials */
+.testimonials {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.testimonials h2 {
+  color: #f59e0b;
+  margin-bottom: 25px;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  max-width: 300px;
+}
