@@ -23,7 +23,7 @@ export default function Home() {
     });
 
     if (res.ok) {
-      alert("✅ Thank you! We will contact you within 48 hours.");
+      window.location.href = "/thank-you";
       setFormData({ name: "", email: "", phone: "", city: "", message: "" });
     } else {
       alert("❌ Something went wrong.");
